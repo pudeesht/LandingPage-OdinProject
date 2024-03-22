@@ -1,0 +1,22 @@
+.container{
+    display:flex;
+    background-color:#1F2937;
+    box-sizing: border-box;
+}
+
+
+
+.container div{
+    font-family: Arial, Helvetica, sans-serif;
+    flex:auto;
+}
+.container .headermain{
+    color: #f9faf8;
+    font-weight: bold;
+    flex:auto;
+}
+.container .headerside{
+    color: #E5E7EB;
+    font-weight: lighter;
+    flex:auto; 
+}
