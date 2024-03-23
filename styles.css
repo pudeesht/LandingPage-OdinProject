@@ -2,21 +2,266 @@
     display:flex;
     background-color:#1F2937;
     box-sizing: border-box;
+    justify-content: center;
+    align-content: center;  
+    gap: 20px;
+    /* border: orange solid 10px; */
 }
 
 
+.container2{
+    display:flex;
+    background-color:#1F2937;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-content: space-around;  
+    /* border: blue solid 10px; */
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: auto;
+    height: auto;
+    gap:50px
+}
 
-.container div{
+
+.container *{
     font-family: Arial, Helvetica, sans-serif;
-    flex:auto;
+    flex-basis: 100%;
+
 }
-.container .headermain{
-    color: #f9faf8;
+.main{
+    color: #E5E7EB;
     font-weight: bold;
-    flex:auto;
+    padding-left: 270px;
+    padding-right: 250px;
+    text-align:center;
+    padding-top: 25px;
+    /* border: black solid 5px; */
+    font-size: 24px;
+
 }
-.container .headerside{
+
+.side{
     color: #E5E7EB;
     font-weight: lighter;
-    flex:auto; 
+    text-align: center;
+    padding-top: 25px;
+    /* border:black solid 5px; */
+}
+
+.container2 >*
+{
+    flex-basis: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textcontainer{
+    display :flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* border:pink solid 10px; */
+    gap:10px
+}
+
+.maintext{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    /* border:black solid 5px; */
+}
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    /* border: black solid 5px; */
+}
+
+
+.button{
+    background-color: #3882f6;
+    /* border:black solid 2px; */
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* font-weight: bold; */
+    
+}
+
+.immage{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.container3{
+
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
+
+.container3>*
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 340px;
+    padding-right: 340px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: solid #3882f6 2px;
+    border-radius: 10px;
+}
+
+
+.textboxes
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 340px;
+    padding-right: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc
+{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+
+
+.quote
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotetext{
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    width: 890px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.quotename{
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1f1f1f;
+    padding-left: 500px;
+    margin-top: 0px;
+}
+
+
+
+
+.last
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigbutton
+{
+    background-color: #3882f6;
+    width: 1000px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.likhnewala
+{
+    display:flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.det1
+{
+    text-align: left;
+    font-weight: bold;
+    color: #e5e7eb;
+    padding-top: 15px;
+    padding-left: 60px;
+    margin-bottom: 0px;
+}
+
+.det2{
+    text-align: left;
+    font-style: italic;
+    color: #e5e7eb;
+    padding-left: 60px;
+    margin-top: 0px;
+
+}
+
+
+.final
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid #e5e7eb 2px;
+    text-align: center;
+    color: #E5E7EB;
+    border-radius: 8px;
+    
+    width: 110px;
+    height: 25px;
+    
+    padding-top: 8px;
+
+    margin-left: 250px;
+    margin-top: 33px;
+
+}
+
+
+
+.hogaya
+{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+
+}
+
+.khatam
+{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #E5E7EB;
+
 }
